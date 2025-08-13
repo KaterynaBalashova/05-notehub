@@ -6,3 +6,5 @@ export interface Note {
     updatedAt: Date,
     tag: string
 };
+
+export type NoteId = Note["id"];
