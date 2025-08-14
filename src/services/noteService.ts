@@ -5,7 +5,7 @@ const myKey = import.meta.env.VITE_NOTEHUB_TOKEN;
 
 interface NoteHttpRespond {
     notes: Note[],
-    total_pages: number,
+    totalPages: number,
 }
 
 export interface CreateNewNote {

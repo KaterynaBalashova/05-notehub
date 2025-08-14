@@ -26,7 +26,7 @@ function App() {
     setCurrentPage(1);
   }, 300);
 
-  const totalPages = data?.total_pages || 0;
+  const totalPages = data?.totalPages || 0;
 
   const openModal = () => setIsModalOpen(true);
 
